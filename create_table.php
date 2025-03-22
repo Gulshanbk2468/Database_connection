@@ -15,6 +15,7 @@ if ($conn->connect_error) {
 
 //  Create the students table
 $sql = "CREATE TABLE  students (
+
     id INT AUTO_INCREMENT PRIMARY KEY,
     firstname VARCHAR(50) NOT NULL,
     lastname VARCHAR(25) NOT NULL,
